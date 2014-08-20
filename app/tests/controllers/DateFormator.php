@@ -18,7 +18,7 @@ protected $stamp;
     {
         return $this->stamp;
     }
-}
+
 
 public function testStampMustBeInstanceOfDateTime()
 {
@@ -26,4 +26,5 @@ public function testStampMustBeInstanceOfDateTime()
     $date = new DateFormatter(new DateTime);
 
     $this->assertInstanceOf('DateTime', $date->getStamp());
+}
 }
