@@ -13,5 +13,18 @@
 
 Route::get('welcome/sayhello', function()
 {
-	return 'hello';
+	return View::make ('hello');
 });
+
+Route::get('welcome/sayhello','WelComeController@sayhello');
+
+
+
+Route::get('greeting/sayhi','GreetingController@sayhi');
+
+
+Route::get('student/sayhi','StudentController@sayhi');
+
+Route::resource('ftfl', 'ftflsController');
+
+Route::resource('tasks', 'TasksController');
