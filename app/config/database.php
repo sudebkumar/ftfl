@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'forge',
-			'username'  => 'forge',
-			'password'  => '',
+			'host'      => 'localhost.localdomain',
+			'database'  => 'todolist',
+			'username'  => 'root',
+			'password'  => 'laravel',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
@@ -122,18 +122,3 @@ return array(
 	),
 
 );
-
-
-
-'mysql' => array(
-    'driver'    => 'mysql',
-    'host'      => 'localhost',
-    'database'  => 'l4todo',
-    'username'  => 'my_username',
-    'password'  => 'my_password',
-    'charset'   => 'utf8',
-    'collation' => 'utf8_unicode_ci',
-    'prefix'    => '',
-),
-
-}
